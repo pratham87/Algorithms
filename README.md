@@ -1,2 +1,2 @@
 # Algorithms
-Algorithms - Java Implementation
+Algorithms and problems - Java Implementation
