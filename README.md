@@ -2,13 +2,13 @@
 * ##List of Algorithms:
 	
 	* Backtracking:
-		* MazeRunner
-		* **WordInMatrix**
+		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java)
+		* WordInMatrix
 		
 	* Dynamic Programming:
-		* Kadane
+		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java)
 		
-	*Maze Generator:
+	* Maze Generator:
 		* Prim
 		
 	* Searching:
