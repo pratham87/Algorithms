@@ -9,12 +9,14 @@
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java)
 		
 	* Maze Generator:
-		* Prim
+		* [Prim](https://github.com/pratham87/Algorithms/blob/master/src/main/java/mazeGenerator/Prim.java)
 		
 	* Searching:
 		* Binary search
-		* Linear search
+			* [Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearchUsingIterations.java)
+			* [Recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearchUsingRecursion.java)
+		* [Linear search](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/LinearSearch.java)
 	
 	* Sorting:
-		* Bubble sort
-		* Heap sort
+		* [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
+		* [Heap sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/HeapSort.java)
