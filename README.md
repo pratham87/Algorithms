@@ -7,6 +7,7 @@
 		
 	* Dynamic Programming:
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java)
+		* Knapsack Problem
 		
 	* Maze Generator:
 		* [Prim](https://github.com/pratham87/Algorithms/blob/master/src/main/java/mazeGenerator/Prim.java)
@@ -20,10 +21,14 @@
 	* Sorting:
 		* [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
 		* [Heap sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/HeapSort.java)
+		* Selection sort
+		* Merge sort
+		* Bucket sort
+		* Quick sort
 		
 	* Graph:
 		* BFS
 		* DFS
 		
-	* Shortest:
+	* Shortest path:
 		* Dijktra's
