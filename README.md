@@ -32,3 +32,6 @@
 		
 	* Shortest path:
 		* Dijktra's
+		
+	* Miscellaneous
+		* Sieve of Eratosthenes
