@@ -34,4 +34,4 @@
 		* Dijktra's
 		
 	* **Miscellaneous:**
-		* Sieve of Eratosthenes
+		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/miscellaneous/SieveOfEratosthenes.java)
