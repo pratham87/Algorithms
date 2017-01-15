@@ -3,7 +3,7 @@
 	
 	* **Backtracking:**
 		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java)
-		* WordInMatrix
+		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java)
 		
 	* **Dynamic Programming:**
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java)
