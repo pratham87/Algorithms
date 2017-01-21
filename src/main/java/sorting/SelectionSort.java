@@ -3,7 +3,8 @@ package sorting;
 public class SelectionSort {
 
 	public static void selection(int[] a) {
-		int temp, iMin;
+		int temp, iMin; // iMin is used to track/remember minimum elements and
+						// then swap
 		for (int i = 0; i < a.length; i++) {
 
 			iMin = i;
