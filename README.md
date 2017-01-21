@@ -21,7 +21,7 @@
 	* **Sorting:**
 		* [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
 		* [Heap sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/HeapSort.java)
-		* Selection sort
+		* [Selection sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/SelectionSort.java)
 		* Merge sort
 		* Bucket sort
 		* Quick sort
