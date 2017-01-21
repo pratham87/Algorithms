@@ -3,7 +3,7 @@
 	
 	* **Backtracking:**
 		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java)
-		* WordInMatrix
+		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java)
 		
 	* **Dynamic Programming:**
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java)
@@ -34,4 +34,4 @@
 		* Dijktra's
 		
 	* **Miscellaneous:**
-		* Sieve of Eratosthenes
+		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/miscellaneous/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
