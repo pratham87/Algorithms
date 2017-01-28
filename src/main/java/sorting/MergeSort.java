@@ -7,7 +7,7 @@ public class MergeSort {
 		int n1 = m - l + 1;
 		int n2 = r - m;
 
-		// Create temp left anf right arrays
+		// Create temp left and right sub arrays
 		int L[] = new int[n1];
 		int R[] = new int[n2];
 
@@ -23,7 +23,7 @@ public class MergeSort {
 		// Take Two pointers. i on first array and j on second array
 		int i = 0, j = 0;
 
-		// Initial index of merged subarry array
+		// Compare elements of sub arrays and get the smallest
 		int k = l;
 		while (i < n1 && j < n2) {
 			if (L[i] <= R[j]) {
