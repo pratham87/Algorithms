@@ -22,7 +22,7 @@
 		* [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
 		* [Heap sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/HeapSort.java)
 		* [Selection sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/SelectionSort.java)
-		* Merge sort: [Source](http://quiz.geeksforgeeks.org/merge-sort/)
+		* [Merge sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/MergeSort.java): [Source](http://quiz.geeksforgeeks.org/merge-sort/)
 		* Bucket sort: [Source](http://www.growingwiththeweb.com/2015/06/bucket-sort.html#code)
 		* Quick sort
 		
