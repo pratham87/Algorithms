@@ -6,7 +6,7 @@
 		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java)
 		
 	* **Dynamic Programming:**
-		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem): [Source](http://algorithms.tutorialhorizon.com/kadanes-algorithm-maximum-subarray-problem/)
+		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 		* Knapsack Problem
 		
 	* **Maze Generator:**
