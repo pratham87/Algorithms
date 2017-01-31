@@ -2,7 +2,7 @@
 * ##List of Algorithms:
 	
 	* **Backtracking:**
-		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java)
+		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-rat-in-a-maze-puzzle/)
 		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-search-a-word-in-a-matrix/)
 		
 	* **Dynamic Programming:**
