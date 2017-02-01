@@ -31,7 +31,7 @@
 		* BFS
 		* DFS
 		
-	* **Shortest path:**
+	* **Shortes path:**
 		* Dijktra's
 		
 	* **Miscellaneous:**
