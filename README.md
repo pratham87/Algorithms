@@ -30,6 +30,7 @@
 	* **Graph:**
 		* BFS
 		* DFS
+		* Bubble
 		
 	* **Shortest path:**
 		* Dijktra's
