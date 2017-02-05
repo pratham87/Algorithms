@@ -2,8 +2,9 @@
 * ##List of Algorithms:
 	
 	* **Backtracking:**
-		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java)
-		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java)
+		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-rat-in-a-maze-puzzle/)
+		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-search-a-word-in-a-matrix/)
+		* N-Queen problem
 		
 	* **Dynamic Programming:**
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
@@ -28,7 +29,7 @@
 		
 	* **Graph:**
 		* BFS
-		* DFS
+		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search), [Source code](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
 		
 	* **Shortest path:**
 		* Dijktra's
