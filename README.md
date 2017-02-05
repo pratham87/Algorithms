@@ -29,7 +29,7 @@
 		
 	* **Graph:**
 		* BFS
-		* DFS
+		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search), [Source code](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
 		
 	* **Shortest path:**
 		* Dijktra's
