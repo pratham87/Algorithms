@@ -32,7 +32,7 @@
 		* [DFS](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSConnectedGraph.java): [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search), [Source code](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
 		
 	* **Shortest path:**
-		* Dijktra's
+		* Dijktra's: [Pseudocode](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)
 		
 	* **Miscellaneous:**
 		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/miscellaneous/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
