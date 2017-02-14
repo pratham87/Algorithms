@@ -25,7 +25,7 @@
 		* [Selection sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/SelectionSort.java)
 		* [Merge sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/MergeSort.java): [Source](http://quiz.geeksforgeeks.org/merge-sort/)
 		* Bucket sort: [Source](http://www.growingwiththeweb.com/2015/06/bucket-sort.html#code)
-		* Quick sort
+		* Quick sort: [Pseudocode](https://en.wikipedia.org/wiki/Quicksort)
 		
 	* **Graph:**
 		* BFS: [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
