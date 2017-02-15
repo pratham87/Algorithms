@@ -8,7 +8,7 @@
 		
 	* **Dynamic Programming:**
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
-		* Knapsack Problem
+		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
 		
 	* **Maze Generator:**
 		* [Prim](https://github.com/pratham87/Algorithms/blob/master/src/main/java/mazeGenerator/Prim.java)
