@@ -15,24 +15,24 @@
       }
   ```
 * ### **O(n):** 
-	* Example: Linear search 
+	* Example: [Linear search](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/LinearSearch.java) 
 	* Time to complete is directly proportional to the amount of data. 
 	* Reading every data in array. So reading N elements gives O(n)
 
 * ### **O(n<sup>2</sup>)** 
-	* Example: Bubble sort
+	* Example: [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
 	* Time to complete the algorithm is directly proportional to the square of the amount of data. 
 	* Algorithms with more nested iterations will result in O(n<sup>2</sup>), O(n<sup>3</sup>), etc. performance
 	* Reading every data N times in array. So reading N elements gives O(n<sup>2</sup>) 
 
 * ### **O(log n):** 
-	* Example: Binary Search
+	* Example: [Binary Search](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearchUsingIterations.java)
 	* log N occurs when the data being used is decreased by roughly **50%** each time through the algorithm. 
 	* As the value N increases, the value of log N decreases
 	* O(log n) algorithms are very efficient because increasing the amount of data has little effect as the amount of data is halved on each run.
 
 * ### **O(n log n):** 
-	* Example: Quick sort
+	* Example: [Quick sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/QuickSort.java)
 	* Values are compared only once. 
 	* So each comparison will reduce the possible final sorted lists in half.
     * Comparisons = log n! 
