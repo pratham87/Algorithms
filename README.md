@@ -1,5 +1,5 @@
 * Algorithms and problems - Java Implementation
-* ##List of Algorithms:
+* ## List of Algorithms:
 	
 	* **Backtracking:**
 		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-rat-in-a-maze-puzzle/)
@@ -25,7 +25,7 @@
 		* [Selection sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/SelectionSort.java)
 		* [Merge sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/MergeSort.java): [Source](http://quiz.geeksforgeeks.org/merge-sort/)
 		* Bucket sort: [Source](http://www.growingwiththeweb.com/2015/06/bucket-sort.html#code)
-		* Quick sort: [Pseudocode](https://en.wikipedia.org/wiki/Quicksort)
+		* [Quick sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/QuickSort.java): [Pseudocode](https://en.wikipedia.org/wiki/Quicksort)
 		
 	* **Graph:**
 		* BFS: [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
