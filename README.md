@@ -3,6 +3,9 @@
 	
 	* [Big O Notation](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bigONotation/BigO.md)
 	
+	* Bit Manipulation
+		* [Bit Manipulation basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bitManipulation/BitManipulation.md)	 
+	
 	* **Backtracking:**
 		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-rat-in-a-maze-puzzle/)
 		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-search-a-word-in-a-matrix/)
