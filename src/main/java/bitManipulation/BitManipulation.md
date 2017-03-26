@@ -66,3 +66,26 @@
 
 	* Little Endian:
     	* Most significant byte of word is stored at largest address and least significant byte is stored at smallest address
+
+* ### **Common Bit Tasks**:
+	* Get Bit:
+		* Method 1: 
+			* Shift N by K bits. That way you will have the kth bit at the least significant position (end).
+			* Then perform AND with 1. This will clear all the bits except the bit at the end. Thus you will get the bit (1 or 0) at position k in n. 
+			```
+            public static int getBit(int n, int k) {
+                    return (n >> k) & 1;
+                }
+			```
+		* Method 2: 
+			*  Shift 1 over by k bits
+			*  Perform AND with N to clear all bits other than the bit at bit k
+			```
+            public static boolean getBit(int num, int i) {
+				return ((num & (1 << i)) != 0);
+			}
+            ```
+
+
+
+* Set Bit:
