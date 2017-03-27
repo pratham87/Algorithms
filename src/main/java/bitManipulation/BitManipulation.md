@@ -68,7 +68,10 @@
     	* Most significant byte of word is stored at largest address and least significant byte is stored at smallest address
 
 * ### **Common Bit Tasks**:
-	* Get Bit:
+	* **Get Bit:** 
+		* Aligning bit 1 with kth bit
+		* Why AND: So that original bit (kth bit in N) won't be changed.
+		
 		* Method 1: 
 			* Shift N by K bits. That way you will have the kth bit at the least significant position (end).
 			* Then perform AND with 1. This will clear all the bits except the bit at the end. Thus you will get the bit (1 or 0) at position k in n. 
@@ -78,14 +81,37 @@
                 }
 			```
 		* Method 2: 
-			*  Shift 1 over by k bits
-			*  Perform AND with N to clear all bits other than the bit at bit k
+			*  Shift 1 over by k bits, to align bit 1 with the kth bit.
+			*  Perform AND with N to clear all bits except the bit at kth position
 			```
-            public static boolean getBit(int num, int i) {
-				return ((num & (1 << i)) != 0);
+            public static boolean getBit(int n, int k) {
+				return ((n & (1 << k)) != 0);
 			}
             ```
 
+	* **Set Bit:**
+		*  Shift 1 over by k bits, to align bit 1 with the kth bit.
+		*  Performing OR with N will change the bit at kth position in N
+		*  All other bits will remain unchanged (since OR with 0)
+			```
+            public int setBit(int n, int k) {
+				return n | (1 << k);
+			}
+            ```	 
+            
+     * **Clear Bit:**
+     	* Reverse of setBit (setting a 0 instead of 1)
+     	* Shift 1 over by k bits and then negate it, ~00010000 = 11101111
+     	* This will clear the kth bit and leave the remainder unchanged.
+          ```
+          public static int clearBit(int n, int k) {
+              int mask = ~(1 << k);
+              return n & mask;
+          }
+          ```
+
+	* **Update Bit:**
+		* 
 
 
-* Set Bit:
+
