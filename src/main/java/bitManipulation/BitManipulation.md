@@ -110,8 +110,16 @@
           }
           ```
 
-	* **Update Bit:**
-		* 
+	* **Update Bit:** (Set Bit + Clear Bit)
+		* Left shift v by k bits
+		* Clear the kth bit in N
+		* OR both numbers to set v in N.
+          ```
+          public static int updateBit(int n, int k, int v) {
+			  int mask = ~(1 << k);
+			  return (n & mask) | (v << k);
+		  }
+          ```
 
 
 
