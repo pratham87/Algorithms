@@ -1,10 +1,11 @@
 * Algorithms and problems - Java Implementation
 * ## List of Algorithms:
 	
-	* [Big O Notation](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bigONotation/BigO.md)
+	* [**Big O Notation**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bigONotation/BigO.md)
 	
-	* Bit Manipulation
-		* [Bit Manipulation basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bitManipulation/BitManipulation.md)	 
+	* **Bit Manipulation**
+		* [Bit Manipulation basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bitManipulation/BitManipulation.md)
+		* [Basic Bit Operations](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bitManipulation/BasicBitOperations.java)
 	
 	* **Backtracking:**
 		* [MazeRunner](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/MazeRunner.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-rat-in-a-maze-puzzle/)
