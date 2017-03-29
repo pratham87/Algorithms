@@ -63,9 +63,13 @@
 * ### **Endianness**:
 	* Big Endian:
     	* Most significant byte of word is stored at smallest address and least significant byte is stored at largest address
+    	 
+           ![big-endian svg](https://cloud.githubusercontent.com/assets/23204433/24479246/22217962-1493-11e7-81d6-c346f6e8275e.png)
 
 	* Little Endian:
     	* Most significant byte of word is stored at largest address and least significant byte is stored at smallest address
+    	 
+           ![little-endian svg](https://cloud.githubusercontent.com/assets/23204433/24479291/5a625a30-1493-11e7-9f9d-4549e876cbbc.png)
 
 * ### **Common Bit Tasks**:
 	* **Get Bit:** 
@@ -120,6 +124,5 @@
 			  return (n & mask) | (v << k);
 		  }
           ```
-
-
-
+          
+          
