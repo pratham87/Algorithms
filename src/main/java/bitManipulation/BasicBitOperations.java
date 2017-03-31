@@ -24,12 +24,24 @@ public class BasicBitOperations {
 		return (n & mask) | (v << k);
 	}
 
+	public static int clearBitsMSBthroughK(int n, int k) {
+		int mask = (1 << k) - 1;
+		return n & mask;
+	}
+
+	public static int clearBitsKthrough0(int n, int k) {
+		int mask = (-1 << (k + 1));
+		return n & mask;
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Get bit(1): " + getBit(14, 3));
 		System.out.println("Get bit(2): " + getBitAtPosition(14, 3));
 		System.out.println("Set bit: " + setBit(14, 3));
 		System.out.println("Clear bit: " + clearBit(14, 3));
 		System.out.println("Update bit: " + updateBit(14, 3, 0));
+		System.out.println("Clear Bits form MSB to k: " + clearBitsMSBthroughK(14, 3));
+		System.out.println("Clear Bits form K to 0: " + clearBitsKthrough0(14, 3));
 	}
 
 }
