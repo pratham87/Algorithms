@@ -1,4 +1,13 @@
 package sorting;
+/*
+ Time Complexity: O(n^2)
+ Space Complexity: O(1)
+ 
+ Algorithm:
+ 
+ 1. Find the minimum element and place it the beginning 
+ 2. Update iMin
+*/
 
 public class SelectionSort {
 
