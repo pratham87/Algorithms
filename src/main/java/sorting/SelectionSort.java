@@ -5,15 +5,17 @@ package sorting;
  
  Algorithm:
  
- 1. Find the minimum element and place it the beginning 
- 2. Update iMin
+ 1. Use iMin pointer to find the minimum element in the array. Initially point iMin to index 0. 
+ 2. Keep updating iMin whenever a min element is found. 
+ 3. Then swap and place the min element at the beginning of the array (i)
+ 4. Update i and repeat the same procedure.
 */
 
 public class SelectionSort {
 
 	public static void selection(int[] a) {
-		int temp, iMin; // iMin is used to track/remember minimum elements and
-						// then swap
+		int temp, iMin; // iMin is used to track/remember minimum element
+						
 		for (int i = 0; i < a.length; i++) {
 
 			iMin = i;
@@ -23,7 +25,8 @@ public class SelectionSort {
 					iMin = j;
 				}
 			}
-
+			
+			//Swap if iMin is updated (pointing to different element)
 			if (iMin != i) {
 				temp = a[i];
 				a[i] = a[iMin];
