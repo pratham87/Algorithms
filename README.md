@@ -38,7 +38,7 @@
 		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search)
 		  * Connected Graph:
 		    * [Recursive](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSRecursive.java): [Source](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-		    * Iterative
+		    * [Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSIterative.java)
 		  * Disconnected Graph:
 		     * Recursive
 		     * Iterative
