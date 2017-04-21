@@ -35,7 +35,9 @@
 		
 	* **Graph:**
 		* BFS: [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-		* [DFS](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSConnectedGraph.java): [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search), [Source code](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search)
+		  * [Recursive](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSRecursive.java): [Source](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+		  * [Iterative]()
 		
 	* **Shortest path:**
 		* Dijktra's: [Pseudocode](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)
