@@ -3,10 +3,11 @@ package graph;
 import java.util.*;
 
 /*
- Algorithm:
+ Algorithm: No container for Recursive way
  
  1. Create an array of linkedList for all the vertices and boolean array to track visited vertices.
  2. Each linkedList will track the adjacent vertices. 
+ 
  3. Mark the current node as visited and print it.
  4. Retrieve the the adj vertex from the list and check if its visited or not.
  5. If not then recursively call the method on that vertex. 

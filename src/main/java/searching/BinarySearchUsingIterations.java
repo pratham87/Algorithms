@@ -8,7 +8,7 @@ public class BinarySearchUsingIterations {
 		int mid;
 
 		while (l <= r) {
-			mid = l + (r - l) / 2;
+			mid = (l + r) / 2;
 
 			if (array[mid] == x) {
 				return mid;
@@ -25,9 +25,8 @@ public class BinarySearchUsingIterations {
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 1, 2, 3, 4, 5 };
-
-		System.out.println(binarySearch(array, 1));
+		int[] array = { 1, 3, 5 };
+		System.out.println(binarySearch(array, 5));
 	}
 
 }

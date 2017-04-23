@@ -10,9 +10,12 @@ Algorithm:
 1. Create a Stack and push the first vertex.
 2. Create an array of ArrayList for all the vertices and boolean array to track visited vertices.
 3. Each ArrayList will track the adjacent vertices. 
-4. Mark the current node as visited and print it.
-5. Retrieve the the adj vertex from the list and check if its visited or not.
-6. If not then push the vertex to the Stack. 
+
+4. Push current node to the Stack and print it.
+5. Pop the vertex and check if its visited or not.
+6. If not then mark it as visited and get the neighbors.
+7. Push the neighbors to the Stack
+
 */
 
 public class DFSIterative {
@@ -51,24 +54,21 @@ public class DFSIterative {
 				System.out.print(v + " ");
 
 				for (int i : adj[v]) {
-
-					if (!vertices[i]) {
-						s.push(i);
-					}
-
+					s.push(i);
 				}
 			}
 		}
 	}
 
 	public static void main(String[] args) {
-		DFSIterative g = new DFSIterative(5);
+		DFSIterative g = new DFSIterative(4);
 
-		g.addEdge(1, 0);
+		g.addEdge(0, 1);
 		g.addEdge(0, 2);
-		g.addEdge(2, 1);
-		g.addEdge(0, 3);
-		g.addEdge(1, 4);
+		g.addEdge(1, 2);
+		g.addEdge(2, 0);
+		g.addEdge(2, 3);
+		g.addEdge(3, 3);
 
 		System.out.println("Following is Depth First Traversal " + "(starting from vertex 2)");
 		g.DFS(2);
