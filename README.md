@@ -34,7 +34,7 @@
 		* [Quick sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/QuickSort.java): [Pseudocode](https://en.wikipedia.org/wiki/Quicksort)
 		
 	* **Graph:**
-		* BFS: [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+		* [BFS](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/BFSIterative.java): [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
 		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search)
 		  * Connected Graph:
 		    * [Recursive](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/DFSRecursive.java): [Source](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
