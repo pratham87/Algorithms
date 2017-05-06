@@ -49,7 +49,7 @@
 	* ### **Shortest path:**
 		* Dijktra's: [Pseudocode](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)
 		
-	* ### **String problems and Algorithms:**
+	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
     	* Find unique character string using:
       		* [Two Pointer technique](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsing2Pointer.java)
