@@ -2,6 +2,14 @@ package strings;
 
 import java.util.Arrays;
 
+/*
+ Algorithm:
+ 
+ 1. Replace all spaces and convert to char[]
+ 2. Sort both words 
+ 3. Compare them
+ */
+
 public class Anagram {
 
 	public static boolean isAnagram(String firstWord, String secondWord) {
@@ -14,9 +22,6 @@ public class Anagram {
 
 	public static void main(String s[]) {
 		System.out.println(isAnagram("hello there", "hello there"));
-		long timeIndex = System.currentTimeMillis() / 1000;
-		System.out.println(timeIndex);
 	}
 
 }
-
