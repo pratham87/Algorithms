@@ -12,13 +12,6 @@
 		* [WordInMatrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/backtracking/WordInMatrix.java): [Source](http://algorithms.tutorialhorizon.com/backtracking-search-a-word-in-a-matrix/)
 		* N-Queen problem
 		
-	* ### **Dynamic Programming:**
-		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
-		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
-		* Longest Palindromic Subsequence
-		* Longest Common Subsequence
-		* Longest Common Substring
-		
 	* ### **Maze Generator:**
 		* [Prim](https://github.com/pratham87/Algorithms/blob/master/src/main/java/mazeGenerator/Prim.java)
 		
@@ -48,7 +41,14 @@
 		
 	* ### **Shortest path:**
 		* Dijktra's: [Pseudocode](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)
-		
+	
+    * ### **Dynamic Programming:**
+		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
+		* Longest Palindromic Subsequence
+		* Longest Common Subsequence
+		* Longest Common Substring
+	
 	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
     	* Find unique character string using:
@@ -67,6 +67,7 @@
        		* Longest Palindromic Substring
     	* [Sum of Numbers in a String](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInString.java)
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
+    	* [Regex.md](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Regex.md)
 		
 	* ### **Mathematical Algorithms:**
 		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/miscellaneous/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
