@@ -55,7 +55,7 @@
       		* [Two Pointer technique](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsing2Pointer.java)
       		* [ASCII code](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsingASCIIcode.java)
     	* [Decryption problem using ASCII](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/DecryptionProblem.java)
-	* Reverse string using:
+	    * Reverse string using:
      		* [Char array](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingCharArray.java)
       		* [Stack](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStack.java)
       		* [String builder](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStringBuilder.java)
