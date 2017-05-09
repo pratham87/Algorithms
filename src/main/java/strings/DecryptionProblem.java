@@ -8,9 +8,9 @@ Convert the values back to letters.
 For instance, to encrypt the word “crime”
 
 Decrypted message:	c	r	i	m	e
-Step 1:				99	114	105	109	101
-Step 2:				100	214	319	428	529
-Step 3:				100	110	111	116	113
+Step 1:			99	114	105	109	101
+Step 2:			100	214	319	428	529
+Step 3:			100	110	111	116	113
 Encrypted message:	d	n	o	t	q
 
  Algorithm:
