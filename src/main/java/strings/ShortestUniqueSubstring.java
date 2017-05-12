@@ -12,8 +12,8 @@ import java.util.Map;
  
  Algorithm: Creating a window of valid substring and squeezing it to find the shortest substring
  1. Create a map of all chars in the array or string (to look up chars). 
- 	Map will be used to look the chars and count the number of occurences of each char.
- 	If map.containsValue != 0, that means we have a valid substring else not.
+    Map will be used to look the chars and count the number of occurences of each char.
+    If map.containsValue != 0, that means we have a valid substring else not.
  2. Use two pointer i and j - to find valid substrings.
  3. Keep incrementing i until you we have a valid substring.
  4. Once we have a valid substring get the minLen, start and end positions.
