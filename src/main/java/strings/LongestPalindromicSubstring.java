@@ -3,7 +3,7 @@ package strings;
 /*
  Algorithm: Expanding the Window OR Spreading outwards from a given position
  1. Point two pointers at every char in the string.
- 2. Spread those pointers outwards until s.charAt(j) != s.charAt(k)
+ 2. Spread those pointers outwards until s.charAt(j) != s.charAt(k).
  3. Then calculate maxLen.
  4. Once we have maxLen, point start to the beginning of the palindromic substring.
  5. That way, everytime we update maxLen, start will be updated as well - Line 33. 
