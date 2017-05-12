@@ -64,7 +64,8 @@
     	* Substring:
        		* [Find Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindSubString.java)
        		* [Replace Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReplaceSubstring.java)
-       		* [Longest Substring Length without repeating characters](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestSubstringLength.java)
+       		* [Shortest Unique Substring using One HashMap](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ShortestUniqueSubstring.java)
+		* [Longest Substring Length without repeating characters](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestSubstringLength.java)
        		* Longest Palindromic Substring
     	* [Sum of Numbers in a String](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInString.java)
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
