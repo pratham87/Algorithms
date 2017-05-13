@@ -61,13 +61,18 @@
       		* [String builder](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStringBuilder.java)
       		* [Two Pointer Technique](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingTwoPointerTechnique.java)
       		* [Reverse Vowels in a string](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseVowelsInAString.java)
+    	
+        * Parsing:
+        	* [Parse String basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ParseStrings.java)
+        	* [Sum of Numbers in a String](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInString.java)
+        	* [Sort On email domain and username](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SortOnDomainAndUsername.java) 
+    	 
     	* Substring:
        		* [Find Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindSubString.java)
        		* [Replace Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReplaceSubstring.java)
        		* [Shortest Unique Substring using One HashMap](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ShortestUniqueSubstring.java)
 		    * [Longest Substring Length without repeating characters](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestSubstringLength.java)
        		* [Longest Palindromic Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestPalindromicSubstring.java)
-    	* [Sum of Numbers in a String](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInString.java)
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
     	* [Regex.md](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Regex.md)
 		
