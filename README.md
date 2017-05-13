@@ -64,7 +64,9 @@
     	
         * Parsing:
         	* [Parse String basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ParseStrings.java)
-        	* [Sum of Numbers in a String](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInString.java)
+        	* Sum of Numbers in a String using:
+        		* [Matcher](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingMatcher.java) 
+        		* [Split](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingSplit.java)
         	* [Sort On email domain and username](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SortOnDomainAndUsername.java) 
     	 
     	* Substring:
