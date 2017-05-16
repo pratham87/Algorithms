@@ -43,6 +43,7 @@
 		* Dijktra's: [Pseudocode](https://en.wikipedia.org/wiki/Dijkstra's_algorithm)
 	
     * ### **Dynamic Programming:**
+		* [Longest Path in a Matrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestPathInMatrix.java)
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
 		* Longest Palindromic Subsequence
