@@ -1,4 +1,4 @@
-package miscellaneous;
+package math;
 
 //Implemented using two pointer technique
 public class SieveOfEratosthenes {
