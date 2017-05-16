@@ -82,3 +82,4 @@
 	* ### **Mathematical Algorithms:**
 		* [Reverse Numbers](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/ReverseNumber.java)
 		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+		* [NBitString using recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/NBitString.java)
