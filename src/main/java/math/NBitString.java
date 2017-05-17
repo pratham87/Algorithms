@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 /*
  	Gen­er­ate All Strings of n bits, con­sider A[0..n-1] is an array of size n.
-
-	Exam­ple :
-	
-	n = 3
+	Exam­ple : n = 3
 	Output:
 	[0, 0, 0]    [1, 0, 0]    [0, 1, 0]    [1, 1, 0]
+	[0, 0, 1]    [1, 0, 1]    [0, 1, 1]    [1, 1, 1] 
 	
-	[0, 0, 1]    [1, 0, 1]     [0, 1, 1]    [1, 1, 1] 
+	Algorithm: Nested Recursion
+	1. When data is returned at the very end, make more operations and do another recursive call. 
+	2. Insert data, make recursive call (Alternate pattern).
  */
 
 public class NBitString {
