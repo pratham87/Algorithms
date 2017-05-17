@@ -1,7 +1,9 @@
 package sorting;
 
 /*
- Time Complexity: O(n^2)
+ Time Complexity: 
+ 	1) Best case: O(n), Best case occurs when array is already sorted.
+	2) Worst case: O(n*n), Worst case occurs when array is reverse sorted.
  Space Complexity: O(1)
 
  Algorithm:
