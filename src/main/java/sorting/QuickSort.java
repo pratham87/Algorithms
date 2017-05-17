@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
   Time Complexity: 
   	Best case: O(n log n)  
-  	Worst case: O(n^2)
+  	Worst case: O(n^2) - If last element is selected as pivot and array is already sorted in increasing or decreasing order.
   Space Complexity: O(1)
   
 1. Select a pivot
