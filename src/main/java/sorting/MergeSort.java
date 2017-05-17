@@ -1,5 +1,22 @@
 package sorting;
 
+/*
+Time Complexity: O(nLogn) - All 3 cases (Best, Average, Worst)
+Space Complexity: O(n)
+
+Algorithm: 
+MergeSort(arr[], l,  r)
+If r > l
+     1. Find the middle point to divide the array into two halves:  
+             middle m = (l+r)/2
+     2. Call mergeSort for first half:   
+             Call mergeSort(arr, l, m)
+     3. Call mergeSort for second half:
+             Call mergeSort(arr, m+1, r)
+     4. Merge the two halves sorted in step 2 and 3:
+             Call merge(arr, l, m, r)
+*/
+
 public class MergeSort {
 
 	public void merge(int arr[], int l, int m, int r) {
