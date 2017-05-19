@@ -1,6 +1,6 @@
 package sorting;
 /*
- Time Complexity: O(n^2)
+ Time Complexity: O(n^2) - Same for Best, Average, Worst cases.
  Space Complexity: O(1)
  
  Algorithm:
