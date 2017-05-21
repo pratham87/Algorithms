@@ -19,6 +19,7 @@
 		* Binary search
 			* [Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearchUsingIterations.java)
 			* [Recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearchUsingRecursion.java)
+			* [Search in Sorted Rotated Array](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/SearchInSortedRotatedArray.java)
 		* [Linear search](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/LinearSearch.java)
 	
 	* ### **Sorting:**
