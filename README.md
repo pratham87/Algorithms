@@ -2,6 +2,7 @@
 * ## List of Algorithms:
 	
 	* [**Big O Notation**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bigONotation/BigO.md)
+	* [**Recursion Tips**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/recursion/tips.md)
 	
 	* ### **Bit Manipulation**
 		* [Bit Manipulation basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/bitManipulation/BitManipulation.md)
