@@ -81,7 +81,7 @@
        		* [Longest Palindromic Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestPalindromicSubstring.java)
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
     	* [Regex.md](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Regex.md)
-	* [String Problems](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
+	    * [String Problems](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
 		
 	* ### **Mathematical Algorithms:**
 		* [Reverse Numbers](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/ReverseNumber.java)
