@@ -12,7 +12,7 @@ import java.util.Set;
  
  1. Use HashSet to track repeating chars.
  2. Add every char to set and calculate the MAX length.
- 3. If Set already has that char, then remove it.
+ 3. If Set already has that char, clear the set and repeat the same process.
   
  */
 
