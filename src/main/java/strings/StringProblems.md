@@ -1,4 +1,4 @@
-## String Problems and Algorithms
+## String Problems and Algorithms, Quick tips and basics
 
 1. Basic String operations:
 	* Sort a string:
