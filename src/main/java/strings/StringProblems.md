@@ -15,6 +15,12 @@
       ```
 	  new String(arr);
       ```
+      
+    * String to ```List<Character>```:
+      ```
+      str.chars().mapToObj(c -> (char) c).collect(Collectors.toList());
+      ```
+      * [Why is String.chars() a stream of ints in Java 8?](https://stackoverflow.com/questions/22435833/why-is-string-chars-a-stream-of-ints-in-java-8)
 
 
 2. Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
