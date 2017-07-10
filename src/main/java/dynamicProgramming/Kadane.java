@@ -20,20 +20,23 @@ public class Kadane {
 	}
 
 	// For all negative elements in an array
-	public static void kadaneModified(int[] numbers) {
-		int max_so_far = 0;
-		int max_ending_here = 0;
-		for (int x : numbers) {
-			max_ending_here = Math.max(0, max_ending_here + x);
-			max_so_far = Math.max(max_so_far, max_ending_here);
+	public static int maxSubArray(int[] nums) {
+		if (nums.length == 1) {
+			return nums[0];
 		}
-		System.out.println(max_so_far);
+		int max_here = 0;
+		int max_so_far = nums[0];
+		for (int x : nums) {
+			max_here = Math.max(x, max_here + x);
+			max_so_far = Math.max(max_so_far, max_here);
+		}
+		return max_so_far;
 	}
 
 	public static void main(String[] args) {
 		int[] numbers = { -2, -1, 3, 4, -5 };
 		kadaneModified(numbers);
-		kadane(numbers);
+		maxSubArray(numbers);
 
 	}
 }
