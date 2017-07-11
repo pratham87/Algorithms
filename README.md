@@ -69,9 +69,7 @@
     	
         * **Parsing:**
         	* [Parse String basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ParseStrings.java)
-        	* Sum of Numbers in a String using:
-        		* [Matcher](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingMatcher.java) 
-        		* [Split](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingSplit.java)
+        	* Sum of Numbers in a String Using: [[**Matcher**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingMatcher.java)] [[**Split**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingSplit.java)]
         	* [Sort On email domain and username](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SortOnDomainAndUsername.java) 
     	 
     	* **Substring:**
@@ -81,7 +79,7 @@
        		
        		* **Sliding Window Algorithm:**
        			* [Template](https://discuss.leetcode.com/topic/68976/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem)
-       			* Find All Anagrams in a String
+       			* Find All Anagrams in a String Using: [[**HashMap**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindAnagramsUsingHashMap.java)] [[**ASCII**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindAnagramsUsingASCII.java)]
        			* [Shortest Unique Substring using One HashMap](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ShortestUniqueSubstring.java)
        			* [Longest Palindromic Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestPalindromicSubstring.java)
        			* Longest Substring Length without repeating characters
