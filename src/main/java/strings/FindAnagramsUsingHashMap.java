@@ -6,13 +6,17 @@ import java.util.List;
 import java.util.Map;
 
 /*
+  Question: Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
+  Input: s: "cbaebabacd" p: "abc"
+  Output: [0, 6]
+
   Algorithm: Sliding window algorithm
   
   1. Get all the chars and their count in HashMap. Create a window with start and end pointers.
   2. IMP: Use COUNTER to find valid/invalid anagram substrings. Counter = 0: Valid anagram.
   3. Move the window by a single char. 
-  4. When a char gets in the window, decrement its value and counter by 1.
-  	 When a char leaves the window, increment its value and counter by 1.	
+  4. When a char gets in the window, decrement its value in the map and counter by 1.
+     When a char leaves the window, increment its value in the map and counter by 1.	
  */
 public class FindAnagramsUsingHashMap {
 
