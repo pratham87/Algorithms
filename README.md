@@ -56,30 +56,35 @@
 	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
 	    * [AnagramList](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/AnagramList.java)
-    	* Find unique character string using:
+    	* **Find unique character string using:**
       		* [Two Pointer technique](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsing2Pointer.java)
       		* [ASCII code](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsingASCIIcode.java)
     	* [Decryption problem using ASCII](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/DecryptionProblem.java)
-	    * Reverse string using:
+	    * **Reverse string using:**
      		* [Char array](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingCharArray.java)
       		* [Stack](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStack.java)
       		* [String builder](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStringBuilder.java)
       		* [Two Pointer Technique](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingTwoPointerTechnique.java)
       		* [Reverse Vowels in a string](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseVowelsInAString.java)
     	
-        * Parsing:
+        * **Parsing:**
         	* [Parse String basics](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ParseStrings.java)
         	* Sum of Numbers in a String using:
         		* [Matcher](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingMatcher.java) 
         		* [Split](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SumOfNumbersInStringUsingSplit.java)
         	* [Sort On email domain and username](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SortOnDomainAndUsername.java) 
     	 
-    	* Substring:
+    	* **Substring:**
        		* [Find Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindSubString.java)
        		* [Replace Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReplaceSubstring.java)
-       		* [Shortest Unique Substring using One HashMap](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ShortestUniqueSubstring.java)
-		    * [Longest Substring Length without repeating characters](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestSubstringLength.java)
-       		* [Longest Palindromic Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestPalindromicSubstring.java)
+       		* [Longest Substring Length without repeating characters using Set](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestSubstringLength.java)
+       		
+       		* **Sliding Window Algorithm:**
+       			* [Template](https://discuss.leetcode.com/topic/68976/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem)
+       			* Find All Anagrams in a String
+       			* [Shortest Unique Substring using One HashMap](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ShortestUniqueSubstring.java)
+       			* [Longest Palindromic Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/LongestPalindromicSubstring.java)
+       			* Longest Substring Length without repeating characters
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
     	* [Regex.md](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Regex.md)
 	    * [NOTES](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
