@@ -88,6 +88,9 @@
 	    * [NOTES](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
 		
 	* ### **Mathematical Algorithms:**
+		* Factorial: **[[Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/Factorial.java)][[Recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/FactorialUsingRecursion.java)]**
+        * Fibonacci: **[[Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/FibonacciIterativeWay.java)][[Recusrion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/Fibonacci.java)]**
+        * Prime Numbers: **[[Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/GeneratePrimeNumbersExample.java)][[Stream](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/PrimeNumberUsingStream.java)][[Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)]**
+		* [FizzBuzz](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/FizzBuzz.java)
 		* [Reverse Numbers](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/ReverseNumber.java)
-		* [Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 		* [NBitString using nested recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/NBitString.java)
