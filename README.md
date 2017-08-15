@@ -83,7 +83,7 @@
        			* Longest Substring Length without repeating characters
     	* [Swap without temp](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/SwapStringsWithoutTemp.java)
     	* [Regex.md](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Regex.md)
-	    * [NOTES](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
+	    * [BasicOperations](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/StringProblems.md)
 		
 	* ### **Mathematical Algorithms:**
 		* Factorial: **[[Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/Factorial.java)][[Recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/FactorialUsingRecursion.java)]**
