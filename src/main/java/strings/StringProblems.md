@@ -25,3 +25,13 @@
   ```java
   String[] strings = list.stream().toArray(String[]::new);
   ```
+
+* ### **Regex**:
+	* Valid usage of capitals (Valid words: Hello, hello or HELLO):
+      ```java
+      word.matches("[A-Z]+|[a-z]+|[A-Z][a-z]+");
+      ```
+    * [Keyboard Problem](https://leetcode.com/problems/keyboard-row/description/)
+      ```java
+      str.toLowerCase().matches("[qwertyuiop]*|[asdfghjkl]*|[zxcvbnm]*")
+      ```
