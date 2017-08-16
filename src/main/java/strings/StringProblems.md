@@ -21,7 +21,7 @@
   ```
    * [Why is String.chars() a stream of ints in Java 8?](https://stackoverflow.com/questions/22435833/why-is-string-chars-a-stream-of-ints-in-java-8)
 
-* ```List<Character> to String[]```:
+* ```List<String> to String[]```:
   ```java
   String[] strings = list.stream().toArray(String[]::new);
   ```
