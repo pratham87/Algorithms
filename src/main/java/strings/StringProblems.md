@@ -13,7 +13,7 @@
 
 	* char[] arr to String:
       ```
-	  new String(arr);
+	  new String(arr); OR String.valueOf(arr);
       ```
       
     * String to ```List<Character>```:
