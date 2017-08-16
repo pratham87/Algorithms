@@ -16,7 +16,7 @@
 	  new String(arr); OR String.valueOf(arr);
       ```
       
-    * String to ```java List<Character>```:
+    * String to ```List<Character>```:
       ```java
       str.chars().mapToObj(c -> (char) c).collect(Collectors.toList());
       ```
