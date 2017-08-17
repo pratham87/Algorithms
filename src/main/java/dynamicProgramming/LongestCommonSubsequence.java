@@ -1,5 +1,10 @@
 package dynamicProgramming;
 
+/*
+Algorithm: Pair chars of str2 with str1 (increasing window of length for both). Refer the demo matrix.
+1. If same char then 1 + cross value
+   else max(top, left)
+*/
 public class LongestCommonSubsequence {
 
 	public static int lcs(String s1, String s2) {
