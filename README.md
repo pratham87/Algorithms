@@ -51,7 +51,7 @@
 		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
 		* [Longest Palindromic Subsequence](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestPalindromicSubsequence.java)
 		* [Longest Common Subsequence](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestCommonSubsequence.java)
-		* Longest Common Substring
+		* [Longest Common Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestCommonSubstring.java)
 	
 	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
