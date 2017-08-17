@@ -49,7 +49,7 @@
 		* [Longest Path in a Matrix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestPathInMatrix.java)
 		* [Kadane](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/Kadane.java): [Pseudocode](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 		* Knapsack Problem: [Source code](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
-		* Longest Palindromic Subsequence
+		* [Longest Palindromic Subsequence](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestPalindromicSubsequence.java)
 		* Longest Common Subsequence
 		* Longest Common Substring
 	
