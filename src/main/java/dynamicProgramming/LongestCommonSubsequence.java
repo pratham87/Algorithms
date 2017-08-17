@@ -1,26 +1,26 @@
 package dynamicProgramming;
 
 /*
-Algorithm: Pair chars of str2 with str1 (increasing window of length for both). Refer the demo matrix.
+Algorithm: Pair chars of str2 with str1 (increasing window of length for both). Refer the memo matrix.
 1. If same char then 1 + cross value
    else max(top, left)
 */
 public class LongestCommonSubsequence {
 
 	public static int lcs(String s1, String s2) {
-		int[][] demo = new int[s1.length() + 1][s2.length() + 1];
+		int[][] memo = new int[s1.length() + 1][s2.length() + 1];
 		int max = 0;
 
-		for (int i = 1; i < demo.length; i++) {
-			for (int j = 1; j < demo.length; j++) {
+		for (int i = 1; i < s1.length() + 1; i++) {
+			for (int j = 1; j < s2.length() + 1; j++) {
 				if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
-					demo[i][j] = demo[i - 1][j - 1] + 1;
+					memo[i][j] = memo[i - 1][j - 1] + 1;
 				} else {
-					demo[i][j] = Math.max(demo[i - 1][j], demo[i][j - 1]);
+					memo[i][j] = Math.max(memo[i - 1][j], memo[i][j - 1]);
 				}
 
-				if (demo[i][j] > max) {
-					max = demo[i][j];
+				if (memo[i][j] > max) {
+					max = memo[i][j];
 				}
 			}
 		}
