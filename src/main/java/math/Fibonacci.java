@@ -4,16 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Fibonacci {
-	private static Map<Integer, Long> map = new HashMap<Integer, Long>();
+	private Map<Integer, Long> map = new HashMap<Integer, Long>();
 
-	// static {
-	// map.put(0,0L); //fibonacci(0)
-	// map.put(1,1L); //fibonacci(1)
-	// }
+	public Fibonacci() {
+		map.put(0, 0L); // fibonacci(0)
+		map.put(1, 1L); // fibonacci(1)
+	}
 
 	public long fibonacci(int x) {
-		if (x == 0 || x == 1)
-			return x;
 		return map.computeIfAbsent(x, arg -> fibonacci(x - 1) + fibonacci(x - 2));
 	}
 
