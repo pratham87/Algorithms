@@ -1,5 +1,12 @@
 package dynamicProgramming;
 
+/*
+Algorithm: Window of increasing length
+1. l = 2: 2 char window and so on.  
+2. If extreme end chars are same then 2 + max(lps(middle string))
+   else max(precomputed lps)
+*/
+
 public class LongestPalindromicSubsequence {
 
 	public static int lps(String s) {
