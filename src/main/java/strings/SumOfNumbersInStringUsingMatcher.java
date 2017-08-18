@@ -12,23 +12,15 @@ import java.util.regex.Pattern;
 public class SumOfNumbersInStringUsingMatcher {
 
 	public static int find(String str) {
-		List<String> list = new ArrayList<>();
-		List<Integer> intList = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
 
 		Matcher match = Pattern.compile("\\d+").matcher(str);
 		while (match.find()) {
-			list.add(match.group());
+			list.add(Integer.valueOf(match.group()));
 		}
 
-		list.forEach(e -> intList.add(Integer.valueOf(e)));
+		return list.stream().mapToInt(i -> i.intValue()).sum();
 
-		intList.forEach(s -> System.out.print(s + " "));
-
-		int sum = 0;
-		for (Integer integer : intList) {
-			sum = sum + integer;
-		}
-		return sum;
 	}
 
 	public static void main(String[] args) {
