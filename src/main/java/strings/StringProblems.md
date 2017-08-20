@@ -33,6 +33,11 @@
   int y = (int) (s.charAt(2) - '0'); //Way 2
   ```
 
+* ##### String to Integer:
+  ```java
+  Integer.parseInt(str); OR new Integer(str);
+  ```
+
 * ### **Regex**:
 	* Valid usage of capitals (Valid words: Hello, hello or HELLO):
       ```java
