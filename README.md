@@ -52,6 +52,7 @@
 		* [Longest Palindromic Subsequence](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestPalindromicSubsequence.java)
 		* [Longest Common Subsequence](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestCommonSubsequence.java)
 		* [Longest Common Substring](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/LongestCommonSubstring.java)
+		* Subset sum: **[[DP](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/SubsetSumDP.java)] [[Recursive](https://github.com/pratham87/Algorithms/blob/master/src/main/java/dynamicProgramming/SubsetSumRecursive.java)]**
 	
 	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
