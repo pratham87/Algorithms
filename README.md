@@ -91,4 +91,5 @@
         * Prime Numbers: **[[Iterative](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/GeneratePrimeNumbersExample.java)][[Stream](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/PrimeNumberUsingStream.java)][[Sieve of Eratosthenes](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/SieveOfEratosthenes.java) : [Pseudocode](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)]**
 		* [FizzBuzz](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/FizzBuzz.java)
 		* [Reverse Numbers](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/ReverseNumber.java)
+		* [Biggest Number](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/BiggestNumber.java)
 		* [NBitString using nested recursion](https://github.com/pratham87/Algorithms/blob/master/src/main/java/math/NBitString.java)
