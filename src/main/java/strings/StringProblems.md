@@ -44,7 +44,7 @@
 			* ASCII(a) - ASCII(a) = 0, so continue
 			* ASCII(d) - ASCII(b) = 2. Stop
 			* Result = 2, thus adh > abc
-			* Algorithm keeps going until it finds firt pair of different chars. 
+			* Algorithm keeps going until it finds first pair of different chars. 
 
 * ### **Regex**:
 	* Valid usage of capitals (Valid words: Hello, hello or HELLO):
