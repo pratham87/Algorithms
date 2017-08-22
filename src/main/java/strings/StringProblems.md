@@ -1,42 +1,50 @@
 ## Basic String operations
 
-* ##### Sort a string:
+* #### Sort a string:
   ```java
   Arrays.sort(str.toCharArray());
   ```
 
-* ##### Reverse a String:
+* #### Reverse a String:
   ```java
   new StringBuilder(str).reverse().toString();
   ```
 
-* ##### char[] arr to String:
+* #### char[] arr to String:
   ```java
   new String(arr); OR String.valueOf(arr);
   ```
 
-* ##### String to ```List<Character>```:
+* #### String to ```List<Character>```:
   ```java
   str.chars().mapToObj(c -> (char) c).collect(Collectors.toList());
   ```
    * [Why is String.chars() a stream of ints in Java 8?](https://stackoverflow.com/questions/22435833/why-is-string-chars-a-stream-of-ints-in-java-8)
 
-* ##### ```List<String> to String[]```:
+* #### ```List<String> to String[]```:
   ```java
   String[] strings = list.stream().toArray(String[]::new);
   ```
   
-* ##### char to int:
+* #### char to int:
   ```java
   String s = "1234";
   int x = Character.getNumericValue(s.charAt(2)); //Way 1
   int y = (int) (s.charAt(2) - '0'); //Way 2
   ```
 
-* ##### String to Integer:
+* #### String to Integer:
   ```java
   Integer.parseInt(str); OR new Integer(str);
   ```
+* #### compareTo():
+	* Java sorts Strings [lexicographically](http://docs.oracle.com/javase/8/docs/api/java/lang/String.html#compareTo-java.lang.String-) ie; char by char.
+	* How it works: [Video](https://www.youtube.com/watch?v=iTC43mLZG38)
+		* ```"adh".compareTo("abc")```: 
+			* ASCII(a) - ASCII(a) = 0, so continue
+			* ASCII(d) - ASCII(b) = 2. Stop
+			* Result = 2, thus adh > abc
+			* Algorithm keeps going until it finds firt pair of different chars. 
 
 * ### **Regex**:
 	* Valid usage of capitals (Valid words: Hello, hello or HELLO):
