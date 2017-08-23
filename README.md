@@ -24,14 +24,14 @@
 			* [Tips](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/BinarySearch.md)
 		* [Linear search](https://github.com/pratham87/Algorithms/blob/master/src/main/java/searching/LinearSearch.java)
 	
-	* ### **Sorting:**
+	* ### **Sorting: [Reference](http://www.geeksforgeeks.org/sorting-algorithms/#Basic)**
 		* [Bubble sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/BubbleSort.java)
 		* [Heap sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/HeapSort.java)
 		* [Selection sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/SelectionSort.java)
-		* [Merge sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/MergeSort.java): [Source](http://quiz.geeksforgeeks.org/merge-sort/)
+		* [Merge sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/MergeSort.java)
 		* Bucket sort: [Source](http://www.growingwiththeweb.com/2015/06/bucket-sort.html#code)
 		* [Quick sort](https://github.com/pratham87/Algorithms/blob/master/src/main/java/sorting/QuickSort.java): [Pseudocode](https://en.wikipedia.org/wiki/Quicksort)
-		* Radix sort: [Source](http://www.geeksforgeeks.org/radix-sort/)
+		* Radix sort
 	* ### **Graph:**
 		* [BFS](https://github.com/pratham87/Algorithms/blob/master/src/main/java/graph/BFSIterative.java): [Pseudocode](https://en.wikipedia.org/wiki/Breadth-first_search), [Source code](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
 		* DFS: [Pseudocode](https://en.wikipedia.org/wiki/Depth-first_search)
