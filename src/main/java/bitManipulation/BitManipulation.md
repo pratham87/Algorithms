@@ -104,15 +104,34 @@
             ```	 
             
      * **Clear Bit:**
-     	* Reverse of setBit (setting a 0 instead of 1)
-     	* Shift 1 over by k bits and then negate it, ~00010000 = 11101111
-     	* This will clear the kth bit and leave the remainder unchanged.
-          ```
-          public static int clearBit(int n, int k) {
-              int mask = ~(1 << k);
-              return n & mask;
-          }
-          ```
+     	* Clear bit at position k:
+          * Reverse of setBit (setting a 0 instead of 1)
+          * Shift 1 over by k bits and then negate it, ~00010000 = 11101111
+          * This will clear the kth bit and leave the remainder unchanged.
+            ```
+            public static int clearBit(int n, int k) {
+                int mask = ~(1 << k);
+                return n & mask;
+            }
+            ```
+            
+         * Clear bits from MSB to i:
+         	* Create a mask with a 1 at the kth bit	(1 << k)
+         	```
+            public static int clearBitsMSBthroughK(int n, int k) {
+				int mask = (1 << k) - 1;
+				return n & mask;
+			}
+            ``` 
+         
+         * Clear bits from i to 0:
+         	* code
+         	```
+            public static int clearBitsKthrough0(int n, int k) {
+				int mask = (-1 << (k + 1));
+				return n & mask;
+			}
+         	```
 
 	* **Update Bit:** (Set Bit + Clear Bit)
 		* Left shift v by k bits

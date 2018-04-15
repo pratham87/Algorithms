@@ -427,6 +427,27 @@ public class Test {
 		return false;
 	}
 
+	public int countYZ(String str) {
+		int count = 0;
+		for (int i = 0; i < str.length(); i++) {
+			if (!Character.isLetter(str.charAt(i)) && (str.charAt(i - 1) == 'y' || str.charAt(i - 1) == 'z')) {
+				count++;
+			}
+		}
+		return count;
+	}
+
+	public static String[] findWords(String[] words) {
+		List<String> list = new ArrayList<>();
+		for (String s : words) {
+			if (s.toLowerCase().matches("[qwertyuiop]*|[asdfghjkl]*|[zxcvbnm]*")) {
+				list.add(s);
+			}
+		}
+
+		return list.stream().toArray(String[]::new);
+	}
+
 	public static void main(String[] args) throws IOException {
 		// int[][] data = { { 1487799425, 14, 1 }, { 1487799425, 4, 0 }, {
 		// 1487799425, 2, 0 }, { 1487800378, 10, 1 },
@@ -491,7 +512,25 @@ public class Test {
 
 		// findLHS(new int[]{1,3,2,2,5,2,3,7});
 
-		System.out.println(makeBricks(3, 1, 8));
+		// System.out.println(makeBricks(3, 1, 8));
+
+		// Arrays.asList(1, 1, 2, 2, 3).parallelStream().distinct().forEach(e ->
+		// System.out.println(e));
+
+		// List<Integer> numbers = Arrays.asList(1, 2, 3, 1, 1, 1, 3, 3, 3);
+		// numbers.stream().filter(i -> Collections.frequency(numbers, i) >
+		// 1).collect(Collectors.toSet())
+		// .forEach(System.out::println);
+
+		// int[] arr = {1,2,2,3,3,4,4};
+		// Arrays.stream(arr).boxed().collect(Collectors.toSet()).forEach(e ->
+		// System.out.print(e + " "));
+		//
+		// Arrays.stream(arr).filter(e -> e%2 ==0).forEach(e ->
+		// System.out.print(e + " "));
+
+		System.out.println("adh".compareTo("abc"));
+
 	}
 
 }
