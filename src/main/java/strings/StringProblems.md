@@ -46,10 +46,10 @@
 			* Result = 2, thus adh > abc
 			* Algorithm keeps going until it finds first pair of different chars. 
 * #### indexOf():
-	* str.indexOf('a')    ----> returns index of first occurence of char 'a'
-	* str.indexOf('a', 2) ----> returns index of first occurence of char 'a' after index 2
-	* str.indexOf("str2") ----> returns index of first occurence of String str2 first char in String str
-	* str.indexOf("str2", 2) ----> returns index of first occurence of String str2 first char in String str after index 2
+	* ```str.indexOf('a')```    ----> returns index of first occurence of char 'a'
+	* ```str.indexOf('a', 2)``` ----> returns index of first occurence of char 'a' after index 2
+	* ```str.indexOf("str2")``` ----> returns index of first occurence of String str2 first char in String str
+	* ```str.indexOf("str2", 2)``` ----> returns index of first occurence of String str2 first char in String str after index 2
 * ### **Regex**:
 	* Valid usage of capitals (Valid words: Hello, hello or HELLO):
       ```java
