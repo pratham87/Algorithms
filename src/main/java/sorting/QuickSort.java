@@ -8,9 +8,11 @@ import java.util.Arrays;
   	Worst case: O(n^2) - If last element is selected as pivot and array is already sorted in increasing or decreasing order.
   Space Complexity: O(1)
   
-1. Select a pivot
-2. From both ends, swap elements and make left elements < pivot and all right > pivot
-3. Recursively sort left part and right part 
+1. Select a pivot - midpoint
+2. From both ends, Keep looking for arr[i++] < pivot and arr[j--] > pivot. 
+3. Once found, swap elements 
+4. Make left elements < pivot and right elements > pivot
+5. Recursively sort left part and right part 
  
 */
 
