@@ -32,6 +32,11 @@
   int x = Character.getNumericValue(s.charAt(2)); //Way 1
   int y = (int) (s.charAt(2) - '0'); //Way 2
   ```
+* #### int to char:
+  ```java
+  int count = 1;
+  char c = (char)(count + '0')
+  ```
 
 * #### String to Integer:
   ```java
