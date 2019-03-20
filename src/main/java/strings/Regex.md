@@ -12,3 +12,6 @@
 
 * \b : A word boundary
 * \B : [^\b]
+
+* ([a-z]|[1-9]){1} : Atleast 1 char OR 1 integer
+* ? : Optional
