@@ -35,7 +35,7 @@
 * #### int to char:
   ```java
   int count = 1;
-  char c = (char)(count + '0')
+  char c = (char)(count + '0');
   ```
 
 * #### String to Integer:
