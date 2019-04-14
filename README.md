@@ -56,9 +56,10 @@
 	
 	* ### **Strings:**
     	* [Anagram](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/Anagram.java)
-	    * [AnagramList](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/AnagramList.java)
+    	* [AnagramList](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/AnagramList.java)
     	* Find unique character string using: [[**Brute force**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsing2Pointer.java)][[**ASCII**](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/FindUniqueCharacterStringUsingASCIIcode.java)]
     	* [Decryption problem using ASCII](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/DecryptionProblem.java)
+	    * [InfixToPostfix](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/InfixToPostfix.java)
 	    * **Reverse string using:**
      		* [Char array](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingCharArray.java)
       		* [Stack](https://github.com/pratham87/Algorithms/blob/master/src/main/java/strings/ReverseStringUsingStack.java)
