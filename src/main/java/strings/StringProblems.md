@@ -64,3 +64,8 @@
       ```java
       str.toLowerCase().matches("[qwertyuiop]*|[asdfghjkl]*|[zxcvbnm]*")
       ```
+    * Don't use replaceAll(), use replace():
+      ```
+      str = str.replace(".", "");
+      ```
+        It is a common misconception that replace() doesn't replace all occurrences, because there's a replaceAll() method, but in fact both replace's all occurrences. The difference between the two methods is that replaceAll() matches on a regex (FYI a dot in regex means "any character" whereas replace() matches on a literal String.
